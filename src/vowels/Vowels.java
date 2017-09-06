@@ -26,10 +26,16 @@ public class Vowels extends javax.swing.JFrame {
         JButton = new javax.swing.JButton();
         KButton = new javax.swing.JButton();
         LButton = new javax.swing.JButton();
+        MButton = new javax.swing.JButton();
+        NButton = new javax.swing.JButton();
+        OButton = new javax.swing.JButton();
+        PButton = new javax.swing.JButton();
+        QButton = new javax.swing.JButton();
+        RButton = new javax.swing.JButton();
         lblOut = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(new java.awt.GridLayout(6, 6));
+        getContentPane().setLayout(new java.awt.GridLayout(10, 2));
 
         btnA.setText("A");
         btnA.addActionListener(new java.awt.event.ActionListener() {
@@ -126,6 +132,54 @@ public class Vowels extends javax.swing.JFrame {
             }
         });
         getContentPane().add(LButton);
+
+        MButton.setText("M");
+        MButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MButtonActionPerformed(evt);
+            }
+        });
+        getContentPane().add(MButton);
+
+        NButton.setText("N");
+        NButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                NButtonActionPerformed(evt);
+            }
+        });
+        getContentPane().add(NButton);
+
+        OButton.setText("O");
+        OButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                OButtonActionPerformed(evt);
+            }
+        });
+        getContentPane().add(OButton);
+
+        PButton.setText("P");
+        PButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PButtonActionPerformed(evt);
+            }
+        });
+        getContentPane().add(PButton);
+
+        QButton.setText("Q");
+        QButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                QButtonActionPerformed(evt);
+            }
+        });
+        getContentPane().add(QButton);
+
+        RButton.setText("R");
+        RButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                RButtonActionPerformed(evt);
+            }
+        });
+        getContentPane().add(RButton);
         getContentPane().add(lblOut);
 
         pack();
@@ -191,6 +245,36 @@ public class Vowels extends javax.swing.JFrame {
         conOrVowel(this.LButton.getText());
     }//GEN-LAST:event_LButtonActionPerformed
 
+    private void MButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MButtonActionPerformed
+        // TODO add your handling code here:
+        conOrVowel(this.MButton.getText());
+    }//GEN-LAST:event_MButtonActionPerformed
+
+    private void NButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NButtonActionPerformed
+        // TODO add your handling code here:
+        conOrVowel(this.NButton.getText());
+    }//GEN-LAST:event_NButtonActionPerformed
+
+    private void OButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_OButtonActionPerformed
+        // TODO add your handling code here:
+        conOrVowel(this.OButton.getText());
+    }//GEN-LAST:event_OButtonActionPerformed
+
+    private void PButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PButtonActionPerformed
+        // TODO add your handling code here:
+        conOrVowel(this.PButton.getText());
+    }//GEN-LAST:event_PButtonActionPerformed
+
+    private void QButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_QButtonActionPerformed
+        // TODO add your handling code here:
+        conOrVowel(this.QButton.getText());
+    }//GEN-LAST:event_QButtonActionPerformed
+
+    private void RButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RButtonActionPerformed
+        // TODO add your handling code here:
+        conOrVowel(this.RButton.getText());
+    }//GEN-LAST:event_RButtonActionPerformed
+
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
@@ -229,6 +313,12 @@ public class Vowels extends javax.swing.JFrame {
     private javax.swing.JButton JButton;
     private javax.swing.JButton KButton;
     private javax.swing.JButton LButton;
+    private javax.swing.JButton MButton;
+    private javax.swing.JButton NButton;
+    private javax.swing.JButton OButton;
+    private javax.swing.JButton PButton;
+    private javax.swing.JButton QButton;
+    private javax.swing.JButton RButton;
     private javax.swing.JButton btnA;
     private javax.swing.JButton btnB;
     private javax.swing.JButton btnC;
