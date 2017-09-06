@@ -20,7 +20,12 @@ public class Vowels extends javax.swing.JFrame {
         btnD = new javax.swing.JButton();
         btnE = new javax.swing.JButton();
         btnF = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
+        gButton = new javax.swing.JButton();
+        hbutton = new javax.swing.JButton();
+        IButton = new javax.swing.JButton();
+        JButton = new javax.swing.JButton();
+        KButton = new javax.swing.JButton();
+        LButton = new javax.swing.JButton();
         lblOut = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -74,8 +79,53 @@ public class Vowels extends javax.swing.JFrame {
         });
         getContentPane().add(btnF);
 
-        jButton4.setText("jButton4");
-        getContentPane().add(jButton4);
+        gButton.setText("G");
+        gButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gButtonActionPerformed(evt);
+            }
+        });
+        getContentPane().add(gButton);
+
+        hbutton.setText("H");
+        hbutton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                hbuttonActionPerformed(evt);
+            }
+        });
+        getContentPane().add(hbutton);
+
+        IButton.setText("I");
+        IButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                IButtonActionPerformed(evt);
+            }
+        });
+        getContentPane().add(IButton);
+
+        JButton.setText("J");
+        JButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                JButtonActionPerformed(evt);
+            }
+        });
+        getContentPane().add(JButton);
+
+        KButton.setText("K");
+        KButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                KButtonActionPerformed(evt);
+            }
+        });
+        getContentPane().add(KButton);
+
+        LButton.setText("L");
+        LButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LButtonActionPerformed(evt);
+            }
+        });
+        getContentPane().add(LButton);
         getContentPane().add(lblOut);
 
         pack();
@@ -111,6 +161,36 @@ public class Vowels extends javax.swing.JFrame {
         conOrVowel(this.btnF.getText());
     }//GEN-LAST:event_btnFActionPerformed
 
+    private void gButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gButtonActionPerformed
+        // TODO add your handling code here:
+        conOrVowel(this.gButton.getText());
+    }//GEN-LAST:event_gButtonActionPerformed
+
+    private void hbuttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hbuttonActionPerformed
+        // TODO add your handling code here:
+        conOrVowel(this.hbutton.getText());
+    }//GEN-LAST:event_hbuttonActionPerformed
+
+    private void IButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IButtonActionPerformed
+        // TODO add your handling code here:
+        conOrVowel(this.IButton.getText());
+    }//GEN-LAST:event_IButtonActionPerformed
+
+    private void JButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JButtonActionPerformed
+        // TODO add your handling code here:
+        conOrVowel(this.JButton.getText());
+    }//GEN-LAST:event_JButtonActionPerformed
+
+    private void KButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_KButtonActionPerformed
+        // TODO add your handling code here:
+        conOrVowel(this.KButton.getText());
+    }//GEN-LAST:event_KButtonActionPerformed
+
+    private void LButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LButtonActionPerformed
+        // TODO add your handling code here:
+        conOrVowel(this.LButton.getText());
+    }//GEN-LAST:event_LButtonActionPerformed
+
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
@@ -145,13 +225,18 @@ public class Vowels extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton IButton;
+    private javax.swing.JButton JButton;
+    private javax.swing.JButton KButton;
+    private javax.swing.JButton LButton;
     private javax.swing.JButton btnA;
     private javax.swing.JButton btnB;
     private javax.swing.JButton btnC;
     private javax.swing.JButton btnD;
     private javax.swing.JButton btnE;
     private javax.swing.JButton btnF;
-    private javax.swing.JButton jButton4;
+    private javax.swing.JButton gButton;
+    private javax.swing.JButton hbutton;
     private javax.swing.JLabel lblOut;
     // End of variables declaration//GEN-END:variables
 
